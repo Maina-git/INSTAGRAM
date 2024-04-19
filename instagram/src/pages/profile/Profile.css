@@ -1,0 +1,79 @@
+.profileInfo{
+    width:100%;
+    margin:10px 10px;
+}
+.profileContainer{
+    display:flex;
+}
+
+.imageProfile{
+    width:15vh;
+    height:15vh;
+    object-fit:cover;
+    border:3px solid pink;
+    border-radius:100%;
+    cursor:pointer;
+}
+.profileName{
+    padding:20px;
+}
+.title{
+    font-family:sans-serif;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+.caption{
+    font-family:sans-serif;
+    font-size:15px;
+}
+.suggestionsHeader{
+    font-size:10px;
+    color:grey;
+    font-family:sans-serif;
+    margin:30px 10px;
+}
+.friends{
+    width:5vh;
+    height:5vh;
+    border:3px solid lightblue;
+    object-fit:cover;
+    border-radius:100%;
+}
+.profileFriends{
+    display:flex;
+    font-family:sans-serif;
+}
+
+.friendsName{
+color:black;
+padding:10px;
+font-weight:bold;
+font-size:15px;
+
+}
+.profileList{
+    list-style:none;
+}
+.followers{
+    font-family:sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    padding:2px;
+    color:grey;
+    margin:10px;
+}
+.follow{
+    float:right;
+    margin-right:20px;
+    margin-bottom:20px;
+    background:none;
+    color:rgb(78, 78, 209);
+    border:0;
+    outline:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+.hr{
+    margin-top:10px;
+    width:70%;
+}

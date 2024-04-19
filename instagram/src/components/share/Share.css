@@ -1,0 +1,90 @@
+
+.blog{
+    width:70vh;
+    height:150vh;
+    float:right;
+    box-shadow:5px 5px 10px;
+    list-style:none;
+    margin-top:20px;
+    border-radius:10px;
+    background:white;
+}
+
+.post{
+    margin-top:10vh;
+    width:95%;
+    border-radius:10px;
+}
+.iconPost{
+    float:right;
+    margin-top:10px;
+    margin-left:40%;
+
+}
+.postProfile{
+    display:flex;
+    width:100%;
+    float:left;
+}
+.postProfileUser{
+    width:5vh;
+    height:5vh;
+    border-radius:50%;
+    border:3px solid pink;
+    object-fit:cover;
+    margin-left:10px;
+}
+.userName{
+    font-weight:bold;
+    font-size:15px;
+    font-family:sans-serif;
+    margin:10px 5px;
+}
+
+.likesSection{
+    display:flex;
+    margin:10px 10px;
+    width:90%;
+}
+
+.likeicon{
+    font-size:20px;
+    margin-left:20px;
+    padding:5px;
+    cursor:pointer;
+    border-radius:100%;
+}
+.likeicon:hover{
+        background-color:pink;
+    }
+.likeiconright{
+    float:right;
+    font-size:30px;
+    margin-left:35vh;
+    cursor:pointer;
+}
+.messages{
+    width:90%;
+    margin:20px px;
+   font-family:sans-serif;
+}
+.addComment{
+    border:0;
+    outline:none;
+    width:85%;
+    padding:20px;
+    background:rgb(224, 215, 215);
+    border-radius:20px;
+    margin:20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
